@@ -1,3 +1,17 @@
+commit 29267ea5b4080d26075217e3aa76a27458bf64d2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Dec 29 08:08:25 2024 -0500
+
+    declare tirdad only available for Intel/AMD64
+    
+    https://forums.whonix.org/t/tcp-isn-cpu-information-leak-protection-tirdad/8552/33
+
+commit 0d5a3a6e306e7a3c6d37dfe9a8b3542ddffebb54
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Oct 16 10:58:52 2024 +0000
+
+    bumped changelog version
+
 commit 891c14034a4b35e19da3da991d551b0093b83509
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Oct 16 06:54:59 2024 -0400
