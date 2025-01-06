@@ -1,3 +1,17 @@
+commit 029d0bb0990dd3bf576dee96e3b246d5a8a4109b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 6 07:02:42 2025 -0500
+
+    declare tirdad-dkms only available for Intel/AMD64
+    
+    https://forums.whonix.org/t/tcp-isn-cpu-information-leak-protection-tirdad/8552/33
+
+commit 35f8e503605cb0493d15b7611bdceb80813783fc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Dec 31 19:19:27 2024 +0000
+
+    bumped changelog version
+
 commit c3fa5b1bdac17734dd1aec1d8a67df6629bcd0c5
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Dec 31 13:26:23 2024 -0500
