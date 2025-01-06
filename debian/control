@@ -76,7 +76,7 @@ Description: TCP ISN CPU Information Leak Protection
   - [B] https://trac.torproject.org/projects/tor/ticket/16659#comment:18
 
 Package: tirdad-dkms
-Architecture: any
+Architecture: linux-amd64
 Depends: linux-headers-generic, ${shlibs:Depends}, ${misc:Depends}
 Description: TCP Initial Sequence Numbers Randomization - Source Code and DKMS
  tirdad is a kernel module to hot-patch the Linux kernel
