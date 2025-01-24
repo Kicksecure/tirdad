@@ -3,4 +3,4 @@
 ## Copyright (C) 2019 - 2025 ENCRYPTED SUPPORT LLC <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
-version_numbers_by_upstream=true
+#version_numbers_by_upstream=true
