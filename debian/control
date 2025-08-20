@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dkms, dh-dkms
 Homepage: https://github.com/0xsirus/tirdad
 Vcs-Browser: https://github.com/Kicksecure/tirdad
 Vcs-Git: https://github.com/Kicksecure/tirdad.git
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Rules-Requires-Root: no
 
 Package: tirdad
