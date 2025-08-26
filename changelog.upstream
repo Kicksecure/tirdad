@@ -1,3 +1,28 @@
+commit 687cc32241d5e487f18acb52e61562084c54f0cd
+Merge: 47fddfa 62430ac
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 20 09:53:06 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit 47fddfaed58531804042bada1a6ab1244d50f4ba
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 20 06:57:31 2025 -0400
+
+    bumped Standards-Version
+
+commit 62430acb2de2a535a3b29e2226cf5a0082a7fd47
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Aug 5 22:58:09 2025 -0500
+
+    Port to Trixie.
+
+commit 102aab34849c87516570199ffad22c4d639bceb5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jan 24 13:24:17 2025 +0000
+
+    bumped changelog version
+
 commit 6185610014d6b75cacc0ca106be5aa69db278b00
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Jan 24 08:23:42 2025 -0500
