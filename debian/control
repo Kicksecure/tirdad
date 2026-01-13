@@ -58,22 +58,20 @@ Description: TCP ISN CPU Information Leak Protection
  .
  You can refer to this bog post to get familiar with the original issue:
  .
-  - An analysis of TCP secure SN generation in Linux and its privacy issues
-  - https://bitguard.wordpress.com/?p=982
+  - https://bitguard.wordpress.com/2019/09/03/an-analysis-of-tcp-secure-sn-generation-in-linux-and-its-privacy-issues/
  .
  This metapackage depends on tirdad-dkms.
  .
  References:
  .
-  - [1] https://www.cl.cam.ac.uk/~sjm217/papers/ccs06hotornot.pdf
-  - [2] http://caia.swin.edu.au/talks/CAIA-TALK-080728A.pdf
-  - [3] http://www.cl.cam.ac.uk/~sjm217/papers/ih05coverttcp.pdf
-  - [4] https://stackoverflow.com/a/12232126
-  - [5] http://lxr.free-electrons.com/source/net/core/secure_seq.c?v=3.16
-  - [6] https://trac.torproject.org/projects/tor/ticket/16659
-  - [7] https://phabricator.whonix.org/T543
-  - [A] https://trac.torproject.org/projects/tor/ticket/16659#comment:10
-  - [B] https://trac.torproject.org/projects/tor/ticket/16659#comment:18
+  - [1] https://murdoch.is/papers/ccs06hotornot.pdf (Archived: https://web.archive.org/web/20130205021944/https://www.cl.cam.ac.uk/~sjm217/papers/ccs06hotornot.pdf)
+  - [2] https://web.archive.org/web/20130429084306/http://caia.swin.edu.au/talks/CAIA-TALK-080728A.pdf
+  - [3] https://murdoch.is/papers/ih05coverttcp.pdf (Archived: https://web.archive.org/web/20130326121117/http://www.cl.cam.ac.uk/~sjm217/papers/ih05coverttcp.pdf)
+  - [4] https://stackoverflow.com/questions/12231623/initial-sequence-number-generation-in-linux-tcp-stack/12232126
+  - [5] https://gitlab.torproject.org/legacy/trac/-/issues/16659
+  - [6] https://forums.whonix.org/t/phabricator-to-discourse-forums-migration/19417?old-phabricator-args=%2FT543
+  - [A] https://gitlab.torproject.org/legacy/trac/-/issues/16659#note_2196153
+  - [B] https://gitlab.torproject.org/legacy/trac/-/issues/16659#note_2196161
 
 Package: tirdad-dkms
 Architecture: linux-amd64
