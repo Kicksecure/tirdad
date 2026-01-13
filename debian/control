@@ -69,7 +69,7 @@ Description: TCP ISN CPU Information Leak Protection
   - [3] https://murdoch.is/papers/ih05coverttcp.pdf (Archived: https://web.archive.org/web/20130326121117/http://www.cl.cam.ac.uk/~sjm217/papers/ih05coverttcp.pdf)
   - [4] https://stackoverflow.com/questions/12231623/initial-sequence-number-generation-in-linux-tcp-stack/12232126
   - [5] https://gitlab.torproject.org/legacy/trac/-/issues/16659
-  - [6] https://forums.whonix.org/t/phabricator-to-discourse-forums-migration/19417?old-phabricator-args=%2FT543
+  - [6] https://forums.whonix.org/t/tcp-isns-and-temperature-induced-clock-skews/18862
   - [A] https://gitlab.torproject.org/legacy/trac/-/issues/16659#note_2196153
   - [B] https://gitlab.torproject.org/legacy/trac/-/issues/16659#note_2196161
 
