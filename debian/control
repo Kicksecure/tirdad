@@ -56,7 +56,7 @@ Description: TCP ISN CPU Information Leak Protection
  tirdad is a kernel module to hot-patch the Linux kernel
  to generate random TCP Initial Sequence Numbers for IPv4 TCP connections.
  .
- You can refer to this bog post to get familiar with the original issue:
+ You can refer to this blog post to get familiar with the original issue:
  .
   - https://bitguard.wordpress.com/2019/09/03/an-analysis-of-tcp-secure-sn-generation-in-linux-and-its-privacy-issues/
  .
