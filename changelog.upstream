@@ -1,3 +1,71 @@
+commit 6619a718b1f9c210c2c183d58414c86f13ac4fb1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jan 13 16:27:50 2026 -0500
+
+    readme
+
+commit 8a16d375858cd50560b1d0685ffdf1ce4d97fc5d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jan 13 16:27:03 2026 -0500
+
+    fix
+
+commit 726c3c439242f0abe45f74cce086c7c2a89f239f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jan 13 16:24:50 2026 -0500
+
+    typo
+
+commit be2c8dea1703eb529fefab3210df2765cfb68fda
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jan 13 16:21:11 2026 -0500
+
+    links
+
+commit b75ea79b508d23498d0a515f4def20e813efc504
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jan 13 16:12:39 2026 -0500
+
+    fix link
+
+commit 57f6f34bc6b64de4f3694d9d6cd0976a60fdabf8
+Merge: c46df10 780a022
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jan 13 16:12:09 2026 -0500
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit 780a022790eb417a05b0f897384cba68680c3ab1
+Merge: c46df10 e025a4d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jan 13 16:05:46 2026 -0500
+
+    Merge pull request #2 from Nurmagoz/patch-1
+    
+    Updated all links, except one
+
+commit e025a4dfd78e869d979bd195d574bbea6e8d418b
+Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
+Date:   Sun Dec 28 11:20:06 2025 +0000
+
+    Updated all links, except one
+    
+    I have removed:
+    
+      - [5] http://lxr.free-electrons.com/source/net/core/secure_seq.c?v=3.16
+    
+    Because the original URL doesnt work nor archived, but the closest i came to (from search engine) is:
+    
+    https://elixir.bootlin.com/linux/v3.16-rc1/source/net/core/secure_seq.c#L26
+    
+    But i dont know if its the right one, please check.
+
+commit c46df10996f725b82a4b2072f8661a713b43a794
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Oct 2 01:29:11 2025 +0000
+
+    bumped changelog version
+
 commit 260ef3c3c101f609db234913449af1b5b5e25554
 Merge: 974a04e 68dd840
 Author: Patrick Schleizer <adrelanos@whonix.org>
