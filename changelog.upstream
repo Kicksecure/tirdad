@@ -1,3 +1,22 @@
+commit 87377c20fe733504503779f5cd3ccdb13c3e0b62
+Merge: 782fd99 d7698bc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 03:18:09 2026 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit d7698bcca63b07cad0c75fc843f75696ebe89025
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Fri Mar 27 17:46:30 2026 -0400
+
+    Merge in kernel 6.18.17 support from upstream
+
+commit 782fd9919696a96ee8d818c4b48a1edb6a1e7ea6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 14 12:09:50 2026 +0000
+
+    bumped changelog version
+
 commit 6a6d2ee92646d7b4bbd05522ad76136b408ee58b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 7 02:19:18 2026 -0500
