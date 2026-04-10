@@ -23,13 +23,13 @@
 #define CGREEN				""
 #endif
 
-__printf(2, 3) void _s_out(u8 err, const char *fmt, ...);
+void _s_out(u8 err, char *fmt, ...);
 
 int hook_init(void);
 void hook_exit(void);
 
 
-void _s_out(u8 err, const char *fmt, ...){
+void _s_out(u8 err, char *fmt, ...){
 	va_list argp;
 	char msg_fmt[255];
 
