@@ -1,3 +1,66 @@
+commit 7cbfd8928eee0799b6db93c8d45f11ba160097b9
+Merge: 968b530 9436a85
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Apr 10 06:27:00 2026 -0400
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit 9436a85ec49916e234e935a71a889f20f81a89ab
+Merge: 968b530 cf473ab
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Apr 10 06:26:30 2026 -0400
+
+    Merge pull request #5 from assisted-by-ai/master
+    
+    AGENTS.md
+
+commit cf473ab26a9ae29da0163f24171c80cf4563914a
+Merge: 968b530 b04d43f
+Author: assisted-by-ai (Bot Account) <server@kicksecure.com>
+Date:   Fri Apr 10 06:25:38 2026 -0400
+
+    Merge pull request #4 from assisted-by-ai/claude/security-review-EYFzv
+    
+    Add AGENTS.md with project context and upstream PR notes
+
+commit b04d43fc6e6958991ceb4a11c892dca9850dc23b
+Author: Claude <noreply@anthropic.com>
+Date:   Fri Apr 10 10:22:26 2026 +0000
+
+    Revert __printf annotation change to tirdad.c
+    
+    https://claude.ai/code/session_018RqemCaZDrhmA7jV2eBgQ3
+
+commit 0b9f06472248db31711fb842b87d31f3bde3e15c
+Author: Claude <noreply@anthropic.com>
+Date:   Fri Apr 10 10:20:56 2026 +0000
+
+    Add AGENTS.md documenting upstream PR for __printf annotation
+    
+    The Kicksecure/tirdad#3 maintainer feedback is that the __printf
+    attribute change is too pedantic for a module this small. Record this
+    so future agents don't re-propose it.
+    
+    https://claude.ai/code/session_018RqemCaZDrhmA7jV2eBgQ3
+
+commit bcec037989cecc65032e2a3db72a04e6b2c3b1d3
+Author: Claude <noreply@anthropic.com>
+Date:   Wed Apr 1 13:50:55 2026 +0000
+
+    Add __printf format attribute to _s_out for compile-time format checking
+    
+    Annotate _s_out() with __printf(2, 3) so the compiler warns on format
+    string mismatches. Also mark fmt parameter as const since it is not
+    modified.
+    
+    https://claude.ai/code/session_018RqemCaZDrhmA7jV2eBgQ3
+
+commit 968b530dcf66e4d2bc6048e9ac066ffab9e0b99f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 07:29:26 2026 +0000
+
+    bumped changelog version
+
 commit 87377c20fe733504503779f5cd3ccdb13c3e0b62
 Merge: 782fd99 d7698bc
 Author: Patrick Schleizer <adrelanos@whonix.org>
