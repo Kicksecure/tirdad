@@ -1,3 +1,34 @@
+commit 128a431b42f3e166b7fdfd61763c112bc6d7762c
+Merge: d044e3b da7da57
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Apr 16 01:55:32 2026 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit da7da57db6556cab7e12a83313621de9e3e7522f
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Mon Apr 13 23:32:32 2026 -0400
+
+    Modified and squashed commit of the following:
+
+    commit e1cc04e2c7a32dd15c21c4e4d9be0511ea8448df
+    Author: Claude <noreply@anthropic.com>
+    Date:   Fri Apr 10 10:39:05 2026 +0000
+
+        Update AGENTS.md with PR #4 rejection notes
+
+        Add documentation of the rejected compiler warning flags PR (#4)
+        so future agents don't re-propose hardcoding ccflags-y in the
+        module Makefile. Kbuild already handles warning flags for modules.
+
+        https://claude.ai/code/session_01TGuvnh5mbFAcuVWNxMcuKP
+
+commit d044e3bf77bfc55eff0d0411fc0ffe49efce492d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Apr 11 08:38:04 2026 +0000
+
+    bumped changelog version
+
 commit 7cbfd8928eee0799b6db93c8d45f11ba160097b9
 Merge: 968b530 9436a85
 Author: Patrick Schleizer <adrelanos@whonix.org>
@@ -11,7 +42,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Apr 10 06:26:30 2026 -0400
 
     Merge pull request #5 from assisted-by-ai/master
-    
+
     AGENTS.md
 
 commit cf473ab26a9ae29da0163f24171c80cf4563914a
@@ -20,7 +51,7 @@ Author: assisted-by-ai (Bot Account) <server@kicksecure.com>
 Date:   Fri Apr 10 06:25:38 2026 -0400
 
     Merge pull request #4 from assisted-by-ai/claude/security-review-EYFzv
-    
+
     Add AGENTS.md with project context and upstream PR notes
 
 commit b04d43fc6e6958991ceb4a11c892dca9850dc23b
@@ -28,7 +59,7 @@ Author: Claude <noreply@anthropic.com>
 Date:   Fri Apr 10 10:22:26 2026 +0000
 
     Revert __printf annotation change to tirdad.c
-    
+
     https://claude.ai/code/session_018RqemCaZDrhmA7jV2eBgQ3
 
 commit 0b9f06472248db31711fb842b87d31f3bde3e15c
@@ -36,11 +67,11 @@ Author: Claude <noreply@anthropic.com>
 Date:   Fri Apr 10 10:20:56 2026 +0000
 
     Add AGENTS.md documenting upstream PR for __printf annotation
-    
+
     The Kicksecure/tirdad#3 maintainer feedback is that the __printf
     attribute change is too pedantic for a module this small. Record this
     so future agents don't re-propose it.
-    
+
     https://claude.ai/code/session_018RqemCaZDrhmA7jV2eBgQ3
 
 commit bcec037989cecc65032e2a3db72a04e6b2c3b1d3
@@ -48,11 +79,11 @@ Author: Claude <noreply@anthropic.com>
 Date:   Wed Apr 1 13:50:55 2026 +0000
 
     Add __printf format attribute to _s_out for compile-time format checking
-    
+
     Annotate _s_out() with __printf(2, 3) so the compiler warns on format
     string mismatches. Also mark fmt parameter as const since it is not
     modified.
-    
+
     https://claude.ai/code/session_018RqemCaZDrhmA7jV2eBgQ3
 
 commit 968b530dcf66e4d2bc6048e9ac066ffab9e0b99f
@@ -147,7 +178,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Jan 13 16:05:46 2026 -0500
 
     Merge pull request #2 from Nurmagoz/patch-1
-    
+
     Updated all links, except one
 
 commit e025a4dfd78e869d979bd195d574bbea6e8d418b
@@ -155,15 +186,15 @@ Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
 Date:   Sun Dec 28 11:20:06 2025 +0000
 
     Updated all links, except one
-    
+
     I have removed:
-    
+
       - [5] http://lxr.free-electrons.com/source/net/core/secure_seq.c?v=3.16
-    
+
     Because the original URL doesnt work nor archived, but the closest i came to (from search engine) is:
-    
+
     https://elixir.bootlin.com/linux/v3.16-rc1/source/net/core/secure_seq.c#L26
-    
+
     But i dont know if its the right one, please check.
 
 commit c46df10996f725b82a4b2072f8661a713b43a794
@@ -263,7 +294,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 6 07:02:42 2025 -0500
 
     declare tirdad-dkms only available for Intel/AMD64
-    
+
     https://forums.whonix.org/t/tcp-isn-cpu-information-leak-protection-tirdad/8552/33
 
 commit 35f8e503605cb0493d15b7611bdceb80813783fc
@@ -289,7 +320,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Dec 29 08:08:25 2024 -0500
 
     declare tirdad only available for Intel/AMD64
-    
+
     https://forums.whonix.org/t/tcp-isn-cpu-information-leak-protection-tirdad/8552/33
 
 commit 0d5a3a6e306e7a3c6d37dfe9a8b3542ddffebb54
@@ -358,7 +389,7 @@ Author: Sirus Shahini <sirus.shahini@gmail.com>
 Date:   Mon Oct 14 23:12:49 2024 -0700
 
     Easy patching using livepatch
-    
+
     Move previous code to ./legacy
 
 commit 85802a157c0206a626a4dee2d7b5e0bd7e5bd3dd
@@ -630,9 +661,9 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Aug 6 16:41:36 2021 -0400
 
     remove `Depends: bsdmainutils`
-    
+
     since package no longer uses `hexdump`
-    
+
     and since package `bsdmainutils` is only a transitional package in Debian bullseye
 
 commit a1f4491faaca288e1febad6bd788a02e8d3fb043
@@ -664,11 +695,11 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Apr 29 11:04:49 2021 -0400
 
     Load tirdad before LKRG so LKRG does not judge tirdad to be malicious.
-    
+
     `/etc/modprobe.d/30-tirdad.conf`
-    
+
     `softdep p_lkrg pre: tirdad`
-    
+
     Imported from `lkrg` package since it does not belong there and since Debian
     packaging for LKRG is now provided by upstream.
 
@@ -757,7 +788,7 @@ Author: Sirus Shahini <sirus.shahini@gmail.com>
 Date:   Fri Feb 14 23:30:51 2020 -0700
 
     Merge pull request #8 from adrelanos/patch-3
-    
+
     fix DKMS re-compilation when new kernel gets installed
 
 commit ccedf4a357caff670f5fcf5858d6c405a82304ff
@@ -771,10 +802,10 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 14 07:02:43 2020 +0000
 
     fix DKMS re-compilation when new kernel gets installed
-    
+
     by adding support for variable KERNELRELEASE to makefile
     fixes https://github.com/0xsirus/tirdad/issues/7
-    
+
     make clean: also remove module/.tirdad.o.d
 
 commit 1e3c06d502f6a80c4d7ada6cabe03fd33b12e41d
@@ -788,9 +819,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 14 01:58:39 2020 -0500
 
     fix DKMS re-compilation when new kernel gets installed
-    
+
     by adding support for variable KERNELRELEASE to makefile
-    
+
     https://github.com/0xsirus/tirdad/issues/7
 
 commit b9f49510638a5ac09883d5e1cc2fd911113de106
@@ -804,7 +835,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jan 22 06:37:00 2020 -0500
 
     Depends: linux-headers-amd64 [linux-amd64] | linux-headers-generic,
-    
+
     https://forums.whonix.org/t/lkrg-on-ubuntu-18-04/8823
 
 commit 489666bdbd9f674ef8a7684e8b99f6f19a595af6
@@ -904,11 +935,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jan 1 05:37:11 2020 -0500
 
     work on LKRG compatibility
-    
+
     https://www.whonix.org/wiki/Linux_Kernel_Runtime_Guard_LKRG
-    
+
     make loader wait until "Installing tirdad hook succeeded"
-    
+
     https://github.com/0xsirus/tirdad/issues/5
 
 commit e5c46b7ce26201db6d1fbfc112d37d15640e887e
@@ -922,7 +953,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Dec 24 17:56:57 2019 -0500
 
     support not loading through setting kernel parameter notirdad
-    
+
     Before=lkrg.service
 
 commit b725e91798a3b170c52451408dcbe23af70dde2b
@@ -930,11 +961,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Dec 24 10:00:57 2019 -0500
 
     remove "Should start before LKRG." / "Before=systemd-modules-load.service"
-    
+
     because
-    
+
     sudo systemd-analyze verify default.target
-    
+
     qubes-sysinit.service: Found ordering cycle on systemd-modules-load.service/start
     qubes-sysinit.service: Found dependency on tirdad-dkms.service/start
     qubes-sysinit.service: Found dependency on local-fs.target/start
@@ -971,7 +1002,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Dec 7 12:07:07 2019 -0500
 
     Should start before LKRG.
-    
+
     Before=systemd-modules-load.service
 
 commit 99eb6fe3a2aa4ff001a9b336531ec572df41a4ef
@@ -980,7 +1011,7 @@ Author: Sirus Shahini <sirus.shahini@gmail.com>
 Date:   Fri Dec 6 19:05:43 2019 -0700
 
     Merge pull request #4 from adrelanos/patch-1
-    
+
     syntax fix
 
 commit a827987f7ef0709dae7ce3a662c00652da6f9d63
@@ -994,9 +1025,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Dec 6 10:27:50 2019 -0500
 
     use debhelper dh-systemd automatic installation of systemd unit file
-    
+
     no longer use debian/tirdad-dkms.install to install systemd unit file
-    
+
     fix lintian error binaries-have-file-conflict
 
 commit 2ca71de657b5bf565c3d88b029e9181de624b04f
@@ -1040,7 +1071,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Dec 3 09:28:24 2019 -0500
 
     run during sysinit-target since we might temporarily set kernel.kptr_restrict=1
-    
+
     for better security
 
 commit 396cfb55bf30895a1ad77308d618cf4f1222b2d4
@@ -1099,9 +1130,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Nov 30 02:31:37 2019 -0500
 
     move loader and tirdad.service to /debian folder
-    
+
     to make diff with upstream more contained to /debian folder
-    
+
     git diff --stat 0xsirus/master load.c
 
 commit e3987c98b612d8f9f28d318a2ced3e52b5aac07a
@@ -1109,7 +1140,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Nov 30 02:29:06 2019 -0500
 
     re-add upstream load.c but not use it
-    
+
     to make diff with upstream smaller
 
 commit 230d312532c224150b2b6a62ae17bc65b3f9aa9f
@@ -1219,9 +1250,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Nov 29 06:32:23 2019 -0500
 
     use /dev/random instead
-    
+
     https://www.whonix.org/wiki/Dev/Entropy#Viewpoint:_better_use_.2Fdev.2Frandom
-    
+
     https://forums.whonix.org/t/dev-random-vs-dev-urandom/8571
 
 commit 877bb049b8bf79cea70104a890de78d923ef1831
@@ -1421,7 +1452,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Nov 28 04:41:16 2019 -0500
 
     use `rm` with `-f` in Makefile to make the script idempotent
-    
+
     and not exit non-zero (error) in case there are no files to be deleted
 
 commit 7d2b22638e0f38ce58b69ba2222b9f4de02c2c70
